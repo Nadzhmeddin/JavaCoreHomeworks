@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"ru.geekbrains.core.lesson1.services","l":"Calculator"},{"p":"ru.geekbrains.core.lesson1.utils","l":"Decorator"},{"p":"ru.geekbrains.core.lesson1.task1","l":"Program"}];updateSearchResults();

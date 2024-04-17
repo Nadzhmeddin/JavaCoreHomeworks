@@ -1,0 +1,4 @@
+FROM openjdk:latest
+WORKDIR /usr/src/app
+COPY out/artifacts/java_core_homework_jar/java-core-homework.jar .
+CMD ["java", "-jar", "java-core-homework.jar"]
