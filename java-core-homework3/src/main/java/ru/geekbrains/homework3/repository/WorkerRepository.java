@@ -5,17 +5,14 @@ import ru.geekbrains.homework3.model.BaseWorker;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.NoSuchElementException;
-import java.util.function.Consumer;
+
 
 public class WorkerRepository implements Iterable<BaseWorker> {
 
     private List<BaseWorker> workers = new ArrayList<>();
-    private int counter = 0;
 
     public WorkerRepository(List<BaseWorker> workers) {
         this.workers = workers;
-        this.counter = 0;
     }
 
     public WorkerRepository() {
